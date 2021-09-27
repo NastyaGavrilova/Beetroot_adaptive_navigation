@@ -512,16 +512,16 @@ a {
   vertical-align: middle;
 }
 .e-services__icon--cart {
-  background-image: url(../../assets/image/icon1.svg);
+  background-image: url(./assets/image/icon1.svg);
 }
 .e-services__icon--qualit {
-  background-image: url(../../assets/image/icon2.svg);
+  background-image: url(./assets/image/icon2.svg);
 }
 .e-services__icon--globe {
-  background-image: url(../../assets/image/icon3.svg);
+  background-image: url(./assets/image/icon3.svg);
 }
 .e-services__icon--carrot {
-  background-image: url(../../assets/image/icon4.svg);
+  background-image: url(./assets/image/icon4.svg);
 }
 
 .e-post {
@@ -651,7 +651,7 @@ a {
 }
 
 .c-fresh {
-  background: url(../../assets/image/header.png) 50%;
+  background: url(./assets/image/header.png) 50%;
   background-size: cover;
   padding: 50px 0 120px;
   position: relative;
@@ -928,7 +928,7 @@ a {
   font-size: 5.625em;
 }
 .c-services__right-title--background {
-  background: url(../../assets/image/tomato.png) no-repeat 50%;
+  background: url(./assets/image/tomato.png) no-repeat 50%;
   text-align: center;
   padding: 220px 0;
   display: flex;
@@ -1114,7 +1114,7 @@ a {
 }
 
 .c-contucts {
-  background: url(../../assets/image/background-contact.png) 50% no-repeat;
+  background: url(./assets/image/background-contact.png) 50% no-repeat;
   padding: 100px 0 120px;
   background-size: cover;
   color: #262626;

@@ -1,0 +1,9 @@
+.e-logo {
+  &__link {
+    text-decoration: none;
+    font-family: $f-pacifico;
+    font-size: em(50);
+    color: $c-grey-dark;
+    line-height: 1;
+  }
+}

@@ -1,0 +1,116 @@
+.e-post {
+  position: relative;
+  margin: 1px;
+
+  &__link {
+    box-shadow: 0px 2px 5px 0px rgb(0 0 0 / 50%);
+    text-decoration: none;
+    position: relative;
+    overflow: hidden;
+    display: block;
+    color: #fff;
+  }
+
+  &__link img {
+    transition: transform 0.3s;
+    position: relative;
+    display: block;
+    z-index: 1;
+  }
+
+  &__date {
+    z-index: 3;
+    position: absolute;
+    left: 30px;
+    top: 30px;
+    background: rgba(0, 0, 0, 0.5);
+    height: 60px;
+    width: 60px;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    flex-direction: column;
+    transition: transform 0.5s;
+  }
+
+  &__date {
+    font-weight: bold;
+    font-size: em(17);
+    text-align: center;
+  }
+
+  &__date span {
+    font-size: em(27);
+  }
+
+  &__body {
+    transition: transform 0.3s;
+    position: absolute;
+    font-size: 13px;
+    bottom: -25px;
+    right: 20px;
+    z-index: 3;
+    left: 20px;
+  }
+
+  &__link:hover &__body {
+    transform: translateY(-45px);
+  }
+
+  &__link:hover &__date {
+    transform: translateY(-150px);
+  }
+
+  &__link:hover img {
+    transform: scale(1.2);
+  }
+
+  @media screen and (max-width: 1200px) {
+    img {
+      max-width: 370px;
+      overflow: hidden;
+      background-size: cover;
+      width: 100%;
+    }
+  }
+
+  @media screen and (max-width: 390px) {
+    img {
+      max-width: 370px;
+      overflow: hidden;
+      background-size: cover;
+      width: 100%;
+    }
+
+    &__date {
+      font-weight: bold;
+      font-size: em(14);
+      text-align: center;
+    }
+
+    &__date span {
+      font-size: em(20);
+    }
+
+    &__date {
+      z-index: 3;
+      position: absolute;
+      left: 20px;
+      top: 20px;
+      background: rgba(0, 0, 0, 0.5);
+      height: 40px;
+      width: 40px;
+      border-radius: 5px;
+      display: flex;
+      align-items: center;
+      justify-content: flex-start;
+      flex-direction: column;
+      transition: transform 0.5s;
+    }
+
+    .e-post__title {
+      font-size: em(20);
+    }
+  }
+}

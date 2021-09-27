@@ -1,0 +1,35 @@
+.c-banner {
+  padding: 252px 0;
+
+  &__title {
+    font-family: $f-raleway;
+    font-weight: bold;
+    font-size: em(60);
+    cursor: default;
+  }
+
+  &__description {
+    font-weight: 300;
+    font-size: em(17);
+  }
+
+  &__button {
+    margin-top: 35px;
+  }
+
+  @media screen and (max-width: 480px) {
+    &__title {
+      font-size: em(40);
+      text-align: center;
+    }
+    &__description {
+      float: none;
+      text-align: center;
+    }
+
+    &__button {
+      display: flex;
+      justify-content: center;
+    }
+  }
+}

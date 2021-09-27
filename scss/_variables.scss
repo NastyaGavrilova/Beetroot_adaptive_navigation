@@ -1,0 +1,24 @@
+// COLORS
+$c-black: #000;
+$c-grey-dark: #262626;
+$c-orange: #ff6033;
+$c-white: #f9f8fb;
+$c-yellow: #ffe92f;
+$c-blue: #5585a2;
+$c-lavanda: #b07cf7;
+$c-pink: #f72b3b;
+$c-grey-light: #b9b9b9;
+
+// FONTS
+$f-pacifico: "Pacifico", "cursive";
+$f-raleway: "Raleway", sans-serif;
+
+// Font size
+$fs-base: 16;
+// $fs-h1: 48;
+
+// Transition
+$t-normal: 0.35s cubic-bezier(0.4, 0, 0.2, 1);
+
+// Box Shadow
+$bs-normal: 3px 4px 7px rgba($c-black, 0.1);

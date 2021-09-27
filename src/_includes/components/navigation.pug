@@ -1,0 +1,12 @@
+mixin navigation(args)
+  - let links = [{href: "#home", text: "Home"}, {href: "#about", text: "About"}, {href: "#service", text: "Services"}, {href: "#gallery", text: "Gallery"}, {href: "#blog", text: "Blog"}, {href: "#contact", text: "Contact"}];
+  .c-burger 
+    input(id="burger-menu" type="checkbox")
+    label(for="burger-menu").c-burger__button
+      span  
+    nav.c-navigation
+      ul.c-navigation__list
+        each link in links
+          li.c-navigation__list__item
+            a.e-link(href= link.href)= link.text 
+

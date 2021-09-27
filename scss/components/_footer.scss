@@ -1,0 +1,33 @@
+.c-footer {
+  background-color: $c-grey-dark;
+  padding: 37px 0 31px;
+  color: #b9b9b9;
+  font-size: 16px;
+  font-weight: 300;
+  line-height: 25px;
+  text-align: center;
+
+  &__wrapper {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+
+  &__center {
+    font-family: "Pacifico", "cursive";
+    font-size: em(25);
+  }
+
+  span {
+    color: $c-pink;
+    font-weight: bold;
+  }
+
+  @media screen and (max-width: 780px) {
+    &__wrapper {
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+    }
+  }
+}

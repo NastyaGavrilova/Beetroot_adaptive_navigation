@@ -1,0 +1,38 @@
+.e-button {
+  box-shadow: 4px 4px 6px -1px rgba(110, 116, 134, 0.24),
+    -4px 4px 6px -1px rgba(110, 116, 134, 0.24);
+  text-transform: uppercase;
+  background-color: $c-orange;
+  transition: $t-normal;
+  padding: 20px 26px;
+  font-size: em(20);
+  line-height: 24px;
+  color: $c-white;
+  cursor: pointer;
+  outline: none;
+  border: none;
+
+  // & {
+  //   transform: scale(1.2);
+  // }
+}
+
+.e-gallery__button {
+  text-transform: uppercase;
+  background-color: $c-blue;
+  transition: $t-normal;
+  padding: 20px 40px;
+  font-size: em(20);
+  line-height: 24px;
+  color: $c-white;
+  cursor: pointer;
+  outline: none;
+  border: none;
+  &:hover {
+    transform: scale(1.1);
+  }
+  @media screen and (max-width: 450px) {
+    font-size: em(10);
+    padding: 10px 20px;
+  }
+}

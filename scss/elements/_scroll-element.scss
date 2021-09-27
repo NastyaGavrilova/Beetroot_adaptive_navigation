@@ -1,0 +1,16 @@
+.e-scroll {
+  width: 24px;
+  height: 40px;
+  border: 2px solid $c-grey-dark;
+  border-radius: 12px;
+  padding-top: 3px;
+  // display: flex;
+  // justify-content: center;
+
+  &__line {
+    margin: 0 auto;
+    height: 9px;
+    width: 2px;
+    background-color: $c-grey-dark;
+  }
+}

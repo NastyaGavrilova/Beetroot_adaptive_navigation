@@ -1,0 +1,23 @@
+include ../_includes/elements/index
+include ../_includes/components/index
+
+doctype html
+html(lang='ua')
+  head
+    meta(charset='utf-8')
+    meta(name='viewport' content='width=device-width, initial-scale=1, shrink-to-fit=no')
+    link(rel='stylesheet' href='index.css')
+    link(rel='shortcut icon' href='../../assets/image/favicon.ico')
+    block style
+    block title
+      title Template
+  body
+    //- include ../../assets/icons/common/symbol-defs.svg
+    //- .l-common
+    .c-fresh
+      block fresh
+      .c-container.wrapper 
+        block header 
+
+    main.main 
+      block main

@@ -1,0 +1,67 @@
+.c-about {
+  padding: 35px 0 20px;
+  color: #fff;
+  background-color: #00c4c4;
+
+  &__wrapper {
+    justify-content: space-around;
+    display: flex;
+  }
+
+  &__img {
+    margin: 0px 20px;
+    // max-width: 650px;
+    // height: none;
+    width: 100%;
+  }
+  &__half {
+    width: 50%;
+  }
+
+  &__description {
+    padding: 135px 0 100px 100px;
+  }
+
+  &__title {
+    font-size: em(90);
+    line-height: 120px;
+    font-weight: bold;
+  }
+
+  &__text p {
+    margin-bottom: 15px;
+  }
+
+  p {
+    font-size: em(17);
+    margin: 0 0 28px;
+  }
+
+  @media all and (max-width: 1030px) {
+    width: 100%;
+    text-align: center;
+
+    &__wrapper {
+      display: flex;
+    }
+    &__img {
+      display: none;
+    }
+
+    &__half {
+      width: 100%;
+      &--left {
+        width: 0%;
+      }
+    }
+
+    &__description {
+      text-align: center;
+      padding: 0;
+    }
+
+    &__title {
+      font-size: em(40);
+    }
+  }
+}

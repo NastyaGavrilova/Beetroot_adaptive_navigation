@@ -1,0 +1,24 @@
+mixin gallery()
+  section.c-gallery(id="gallery")
+    .c-container.wrapper 
+      .c-gallery__description 
+        h2.c-description__title Gallery 
+        p.c-description__text Consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+      .c-gallery__photos 
+        .c-photos__item
+          img(src="assets/image/peach.png" alt="peach").e-list__item--peach 
+        .c-photos__wrapper
+          .c-photos__item
+            img(src="assets/image/blueberry.png" alt="blueberry").e-list__item--blueberry 
+          .c-photos__item
+            img(src="assets/image/blackberry.png" alt="blackberry").e-list__item--blackberry  
+        .c-photos__item
+          img(src="assets/image/water.png" alt="water").e-list__item--water 
+        .c-photos__item
+          img(src="assets/image/persimmon.png" alt="persimmon").e-list__item--persimmon
+      .c-gallery__button 
+        +button({
+          text:"View More",
+        })
+
+

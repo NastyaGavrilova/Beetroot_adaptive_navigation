@@ -1,0 +1,23 @@
+.e-blog__button {
+  box-shadow: 0px 2px 5px 0px rgba(0, 0, 0, 0.5);
+  background-color: #f72b3b;
+  text-transform: uppercase;
+  transition: $t-normal;
+  align-items: center;
+  padding: 20px 40px;
+  font-size: em(20);
+  line-height: 24px;
+  color: $c-white;
+  cursor: pointer;
+  outline: none;
+  border: none;
+
+  &:hover {
+    transform: scale(1.1);
+  }
+
+  @media screen and (max-width: 390px) {
+    font-size: em(17);
+    padding: 15px 35px;
+  }
+}

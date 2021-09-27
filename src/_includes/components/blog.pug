@@ -1,0 +1,52 @@
+mixin blog()
+  section.c-blog(id="blog")
+    .c-container.wrapper 
+      .c-blog__wrapper 
+        .c-blog__description 
+          h2.c-description__title Blog 
+          p.c-description__text Dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit.
+        .c-blog__posts
+          .c-post__content 
+            article.e-post
+              a.e-post__link(href="https://foodinsight.org/green-smoothies-too-much-of-a-good-thing/")
+                img(src="assets/image/pic1.png" alt="green smoothie")
+                time.e-post__date 
+                  span 20
+                  |NOV
+                .e-post__body 
+                  h3.e-post__title Green Smoothies: Too Much of a Good Thing?
+                  |By Auskteez -
+                  time 2 hours ago
+          .c-post__content 
+            article.e-post
+              a.e-post__link(href="https://foodinsight.org/growing-food-and-a-thirst-for-innovation/")
+                img(src="assets/image/pic2.png" alt="growing food")
+                time.e-post__date 
+                  span 14
+                  |NOV
+                .e-post__body 
+                  h3.e-post__title Growing Food and a "Thirst" for Innovation
+                  |By Auskteez -
+                  time 3 hours ago
+          .c-post__content 
+            article.e-post
+              a.e-post__link(href="https://foodinsight.org/pesticides-food-what-you-need-to-know/")
+                img(src="assets/image/pic3.png" alt="growing food")
+                time.e-post__date 
+                  span 14
+                  |NOV
+                .e-post__body 
+                  h3.e-post__title Pesticides &amp; Food: What You Need to Know
+                  |By Auskteez -
+                  time 6 hours ago
+        .c-blog__button 
+          +button-blog ({
+            text:'View More'
+          })
+
+
+
+
+
+
+
